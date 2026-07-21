@@ -127,7 +127,7 @@ export default async function ProductDetail({ params }: ProductParams) {
         <a className="brand" href="/" aria-label="Huayouxing Shengjin home">
           <img
             className="brand-logo"
-            src="/huayouxing-logo.jpg"
+            src="/factory/huayouxing-logo.jpg"
             alt="Huayouxing registered brand logo"
           />
           <span className="brand-text">
