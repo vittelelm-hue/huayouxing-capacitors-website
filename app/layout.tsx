@@ -51,8 +51,8 @@ export async function generateMetadata(): Promise<Metadata> {
       },
     },
     icons: {
-      icon: "/favicon.svg",
-      shortcut: "/favicon.svg",
+      icon: "/factory/favicon.svg",
+      shortcut: "/factory/favicon.svg",
     },
     openGraph: {
       title,
@@ -62,7 +62,7 @@ export async function generateMetadata(): Promise<Metadata> {
       locale: "en_US",
       images: [
         {
-          url: `${siteUrl}/og.png`,
+          url: `${siteUrl}/factory/og.png`,
           width: 1200,
           height: 630,
           alt: "Huayouxing capacitor product series",
@@ -74,7 +74,7 @@ export async function generateMetadata(): Promise<Metadata> {
       card: "summary_large_image",
       title,
       description,
-      images: [`${siteUrl}/og.png`],
+      images: [`${siteUrl}/factory/og.png`],
     },
   };
 }
