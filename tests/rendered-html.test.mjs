@@ -89,7 +89,7 @@ test("server-renders the Huayouxing foreign trade homepage", async () => {
   assert.doesNotMatch(html, /\+86 152 2731 0665/);
   assert.match(html, /application\/ld\+json/);
   assert.match(html, /\/products\/cbb60/);
-  assert.match(html, /\/huayouxing-logo\.jpg/);
+  assert.match(html, /\/factory\/huayouxing-logo\.jpg/);
   assert.match(html, /Explore high-grade capacitor possibilities\./);
   assert.match(html, /hero-split-title/);
   assert.match(html, /scroll-float/);
@@ -252,12 +252,12 @@ test("keeps supplied product media available", async () => {
     access(new URL("../public/factory/videos/film-slitting-machine.mp4", import.meta.url)),
     access(new URL("../public/factory/videos/core-insulation-pad.mp4", import.meta.url)),
     access(new URL("../public/factory/videos/cbb65-packaging.mp4", import.meta.url)),
-    access(new URL("../public/huayouxing-logo.jpg", import.meta.url)),
+    access(new URL("../public/factory/huayouxing-logo.jpg", import.meta.url)),
     access(new URL("../public/certificates/huayouxing-rohs-certificate.pdf", import.meta.url)),
     access(new URL("../public/certificates/huayouxing-rohs-certificate.png", import.meta.url)),
     access(new URL("../public/certificates/huayouxing-lvd-certificate.pdf", import.meta.url)),
     access(new URL("../public/certificates/huayouxing-lvd-certificate.png", import.meta.url)),
-    access(new URL("../public/og.png", import.meta.url)),
-    access(new URL("../public/favicon.svg", import.meta.url)),
+    access(new URL("../public/factory/og.png", import.meta.url)),
+    access(new URL("../public/factory/favicon.svg", import.meta.url)),
   ]);
 });
