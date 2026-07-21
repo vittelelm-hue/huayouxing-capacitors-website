@@ -106,7 +106,7 @@ export default function Home() {
         <a className="brand" href="#home" aria-label="Huayouxing Shengjin home">
           <img
             className="brand-logo"
-            src="/huayouxing-logo.jpg"
+            src="/factory/huayouxing-logo.jpg"
             alt="Huayouxing registered brand logo"
           />
           <span className="brand-text">
