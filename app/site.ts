@@ -1,4 +1,4 @@
-export const siteUrl = "https://huayouxing-capacitors.vittelelm.chatgpt.site";
+export const siteUrl = "https://huayouxing-capacitors-hbsj.vercel.app";
 export const companyName = "Hebei Shengjin Electronic Technology Co., Ltd.";
 export const brandName = "Huayouxing";
 export const alibabaUrl = "https://hbsjcapacitor.en.alibaba.com/";
