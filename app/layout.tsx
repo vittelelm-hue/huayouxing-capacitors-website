@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import FloatingContactLinks from "./components/FloatingContactLinks";
 import { brandName, companyName, siteUrl } from "./site";
 
 const geistSans = Geist({
@@ -90,6 +91,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <FloatingContactLinks />
       </body>
     </html>
   );
